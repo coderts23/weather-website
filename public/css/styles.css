@@ -36,7 +36,12 @@ header a {
 }
 
 .main-content {
-  max-width: 75%;
+  max-width: 70%;
+  margin: auto;
+  flex-grow: 1;
+}
+.some-content {
+  max-width: 70%;
   margin: auto;
   flex-grow: 1;
 }
@@ -55,7 +60,7 @@ button {
 }
 
 #message-1 {
-  font-size: 20px;
+  font-size: 1em;
 }
 #message-2 {
   font-size: 1.5em;
